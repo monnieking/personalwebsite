@@ -1,0 +1,43 @@
+nav {
+   font-family: Helvetica, sans-serif;
+}
+
+h1 {
+   font-weight: 400px;
+   font-family: Helvetica, sans-serif;
+   letter-spacing: 5px;
+   font-size: 50px;
+}
+
+h2 {
+   text-decoration: aquamarine underline;
+}
+
+h3 {
+   font-family: Helvetica, sans-serif;
+}
+
+img {
+   display: block;
+   width:50%;
+   margin-left: auto;
+   margin-right: auto;
+}
+body
+{
+   background-color: azure;
+}
+
+section {
+   text-align: ;
+   line-height: 35px;
+   font-family: Helvetica, sans-serif;
+}
+
+footer {
+   font-family: Helvetica, sans-serif;
+}
+
+a {
+   text-decoration: none;
+}
