@@ -1,4 +1,4 @@
-nav {
+/* nav {
    font-family: Helvetica, sans-serif;
 }
 
@@ -10,22 +10,16 @@ h1 {
 }
 
 h2 {
+   font-family: Helvetica, sans-serif;
    text-decoration: aquamarine underline;
 }
 
-h3 {
+h3, h5 {
    font-family: Helvetica, sans-serif;
 }
 
-h5 {
-   font-family: Helvetica, sans-serif;
-}
-
-img {
-   display: block;
-   width:50%;
-   margin-left: auto;
-   margin-right: auto;
+header img {
+   width: 350px;
 }
 body
 {
@@ -44,4 +38,78 @@ footer {
 
 a {
    text-decoration: none;
+}
+
+li a {
+   color: #034078;
+} */
+
+* {
+   box-sizing: border-box;
+}
+
+nav ul {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+}
+
+nav ul li {
+   padding: 0.5em;
+   justify-content: center;
+}
+
+header {
+   display: flex;
+   margin: 10px;
+}
+
+#pic-of-me {
+   margin: 1em;
+}
+
+section {
+   padding-left: 1em;
+   padding-right: 1em;
+}
+
+#main-content {
+   display: flex;
+   flex-direction: row;
+}
+
+#main-content1 {
+   display: flex;
+}
+
+#main-content2 {
+   display: flex;
+}
+
+#more-info {
+   display: flex;
+   justify-content: center;
+   margin-top: 2em;
+}
+
+#text-box {
+   box-sizing: border-box;
+   height: 2.4em;
+}
+
+#footer1 {
+   display: flex;
+   justify-content: center;
+   margin: 2em;
+}
+
+#footer2 {
+   display: flex;
+   justify-content: center;
+   margin: 1em;
+}
+
+#footer-perstate {
+   display: flex;
+   justify-content: center;
 }
